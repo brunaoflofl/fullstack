@@ -10,4 +10,6 @@ switch (idade) {
     case 5:
         console.log("Tem 5 anos");
         break;
+    default:
+    console.log("idade diferente de 10 e 5");
 }

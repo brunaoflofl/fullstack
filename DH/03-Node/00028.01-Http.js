@@ -22,3 +22,39 @@ codes beginning with:
 500 -> internal server error
 
 */
+/*
+//create this just to access http://localhost and see terminal
+const http = require('http'); //load http module in a const
+
+http.createServer((req, res)=>{
+    console.log("Server up")
+}).listen(3000, "localhost");
+*/
+
+/*
+//create to see an answer in paget (Just one route)
+const http = require('http');
+http.createServer((req, res)=>{
+    res.writeHead(200, {"Content-Type":"text/plain"})
+    res.end("My first server!")
+}).listen(3000, "localhost")
+
+
+*/
+
+//more than one route
+const http = require('http');
+http.createServer((req, res)=>{
+    res.writeHead(200, {"Content-Type":"text/plain"});
+
+    switch(req.url){
+        case "/":
+            res.end("You are in home page!");
+            break;
+        case "/contact":
+            res.end("You are in contact page");
+            break;
+        default:
+            res.end("Page not found");
+    }
+}).listen(3000, "localhost")
