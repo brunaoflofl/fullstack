@@ -3,7 +3,7 @@ var idade = 10;
 var preco = 150.65
 
 //cadeia de caracteres (String)
-var nome = 'kris';
+var name = 'kris';
 var frase = "Hello World";
 
 //lógicos ou booleanos

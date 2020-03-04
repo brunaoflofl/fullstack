@@ -1,8 +1,8 @@
 /*
 methods Hyper text transfer protocol:
 
-get -> request data
-post -> send data (security)
+get -> request data (request go by url)
+post -> send data (request go by body, more security)
 put -> send data, replace all informations from some resource
 path -> send data, modify information (partially) of a resource
 delete - > delete a resource
