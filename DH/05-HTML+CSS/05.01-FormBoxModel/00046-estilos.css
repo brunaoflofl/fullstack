@@ -1,0 +1,25 @@
+body {
+    font-family: 'Arial';
+}
+
+/* pseudo selectors*/
+
+input:hover {
+    background-color: red;
+}
+
+p:hover {
+    color: orange;
+}
+
+input:focus {
+    width: 400px;
+}
+
+p:first-of-type{ /*applies in the first paragraph*/
+    background-color: gray;
+}
+
+p:last-of-type{ /* applies in the last paragraph */
+    background-color: orange;
+}
