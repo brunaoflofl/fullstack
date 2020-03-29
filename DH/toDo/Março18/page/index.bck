@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Morto de fome</h1>
+        <h2>Já dizia minha vó: "o tempero da comida é a fome". Como você stá sempre esfomiado, sempre vai achar nosso lanche gosto. Venha saborear, mas só venha se estiver morto de fome</h2>
+    </header>
+    
+    <nav></nav>
+
+    <main>    
+
+    </main>
+
+    <footer>
+        <section>
+            <h3>Quem somo?</h3>  
+        </section>
+        <section>
+            <h3>Mata fome</h3>
+        </section>
+        <section>
+            <h3>Minha Bandeija</h3>
+        </section>
+        <section>
+            <h3>Contato</h3>
+        </section>
+    </footer>
+</body>
+</html>
